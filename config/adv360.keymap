@@ -45,7 +45,11 @@
         move_left_space: move_left_space {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(LEFT_COMMAND) &kp H>, <&macro_tap>;
+            bindings =
+                <&macro_press>,
+                <&kp RC(LEFT_COMMAND)>,
+                <&macro_tap>,
+                <&kp H>;
 
             label = "MOVE_LEFT_SPACE";
         };
@@ -53,7 +57,11 @@
         move_right_space: move_right_space {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(LEFT_COMMAND) &kp L>, <&macro_tap>;
+            bindings =
+                <&macro_press>,
+                <&kp RC(LEFT_COMMAND)>,
+                <&macro_tap>,
+                <&kp L>;
 
             label = "MOVE_RIGHT_SPACE";
         };
