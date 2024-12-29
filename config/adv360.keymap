@@ -50,7 +50,8 @@
                 <&kp RC(LEFT_COMMAND)>,
                 <&macro_tap>,
                 <&kp H>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp RC(LEFT_COMMAND)>;
 
             label = "MOVE_LEFT_SPACE";
         };
@@ -63,7 +64,8 @@
                 <&kp RC(LEFT_COMMAND)>,
                 <&macro_tap>,
                 <&kp L>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp RC(LEFT_COMMAND)>;
 
             label = "MOVE_RIGHT_SPACE";
         };
