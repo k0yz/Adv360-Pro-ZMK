@@ -82,6 +82,7 @@
                 <&kp LEFT_COMMAND>;
 
             label = "COMMAND_TAB";
+            wait-ms = <3000>;
         };
     };
 
