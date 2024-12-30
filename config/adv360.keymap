@@ -116,11 +116,11 @@
 
         layer_Layer__4 {
             bindings = <
-&trans  &trans  &trans  &trans            &trans             &trans  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &kp LS(LPAR)      &kp LS(RPAR)       &trans  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&mo 4   &trans  &trans  &kp LS(LBRC)      &kp LS(RBRC)       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                  &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans            &trans                     &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans            &trans             &trans   &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &kp LS(LPAR)      &kp LS(RPAR)       &kp TAB  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&mo 4   &trans  &trans  &kp LS(LBRC)      &kp LS(RBRC)       &trans   &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                   &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
             >;
         };
     };
