@@ -78,7 +78,8 @@
                 <&kp LEFT_COMMAND>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_COMMAND>;
 
             label = "COMMAND_TAB";
         };
