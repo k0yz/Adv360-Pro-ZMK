@@ -78,11 +78,10 @@
                 <&kp LEFT_COMMAND>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_release>,
+                <&macro_pause_for_release>,
                 <&kp LEFT_COMMAND>;
 
             label = "COMMAND_TAB";
-            wait-ms = <3000>;
         };
     };
 
