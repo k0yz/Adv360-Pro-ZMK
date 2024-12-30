@@ -78,7 +78,7 @@
                 <&kp LEFT_COMMAND>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_wait_time 3>;
+                <&macro_wait_time 0>;
 
             label = "COMMAND_TAB";
         };
