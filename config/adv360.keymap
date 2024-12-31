@@ -39,6 +39,12 @@
             key-positions = <38 65>;
             layers = <0>;
         };
+
+        enter_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <65 70>;
+            layers = <0>;
+        };
     };
 
     macros {
