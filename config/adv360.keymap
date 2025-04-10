@@ -40,10 +40,15 @@
             layers = <0>;
         };
 
-        enter_combo {
-            bindings = <&kp ENTER>;
-            key-positions = <65 70>;
+        afred_shortcut {
+            bindings = <&kp LA(SPACE)>;
+            key-positions = <70 65>;
             layers = <0>;
+        };
+
+        df_keys_to_numbers_toggle {
+            bindings = <&tog 5>;
+            key-positions = <32 31>;
         };
     };
 
@@ -141,6 +146,16 @@
 &mo 4   &trans  &trans      &kp LS(LBRC)      &kp LS(RBRC)       &trans   &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
 &trans  &trans  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                   &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
 &trans  &trans  &trans      &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &trans        &trans        &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans        &kp N0        &trans        &trans  &trans
             >;
         };
     };
