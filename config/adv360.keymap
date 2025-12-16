@@ -51,9 +51,9 @@
             key-positions = <32 31>;
         };
 
-        toggle_layer_5 {
-            bindings = <&tog 5>;
-            key-positions = <41 42>;
+        CTRL-L {
+            bindings = <&kp LC(L)>;
+            key-positions = <66 43>;
         };
     };
 
@@ -146,11 +146,11 @@
 
         layer_Layer__4 {
             bindings = <
-&trans  &trans  &trans      &trans            &trans             &trans   &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans      &kp LS(LPAR)      &kp LS(RPAR)       &kp TAB  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
-&mo 4   &trans  &trans      &kp LS(LBRC)      &kp LS(RBRC)       &trans   &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                   &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans      &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
+&trans       &trans  &trans      &trans            &trans             &trans   &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&kp LC(TAB)  &trans  &trans      &kp LS(LPAR)      &kp LS(RPAR)       &kp TAB  &trans                                      &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&mo 4        &trans  &trans      &kp LS(LBRC)      &kp LS(RBRC)       &trans   &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans       &trans  &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                   &trans      &trans                  &trans    &trans    &trans        &trans     &trans  &trans
+&trans       &trans  &trans      &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
             >;
         };
 
