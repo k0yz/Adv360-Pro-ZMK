@@ -51,7 +51,7 @@
             key-positions = <32 31>;
         };
 
-        CTRL-L {
+        control_l {
             bindings = <&kp LC(L)>;
             key-positions = <66 43>;
         };
